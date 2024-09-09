@@ -1,0 +1,19 @@
+# deno-oak-routing-ctrl-hello-world
+
+minimal starter template for REST API service based on Deno + Oak +
+oak-routing-ctrl
+
+## Runtime Notes
+
+This codebase supports
+[Deno](https://docs.deno.com/runtime/fundamentals/installation/) out of the box
+
+It is possible to convert into other runtimes (e.g. Node.js, Bun, or Cloudflare
+Workers). For further details here please consule
+[oak-routing-ctrl documentation](https://github.com/Thesephi/oak-routing-ctrl?tab=readme-ov-file#other-runtimes)
+
+## Quick start
+
+```bash
+deno run --allow-net --allow-env src/index.ts
+```
