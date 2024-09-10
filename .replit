@@ -1,0 +1,13 @@
+modules = ["deno-1"]
+run = "deno run dev"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "deno run dev"]
+
+[[ports]]
+localPort = 1993
+externalPort = 80
+
