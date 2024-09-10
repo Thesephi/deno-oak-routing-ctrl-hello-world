@@ -15,5 +15,6 @@ Workers). For further details here please consule
 ## Quick start
 
 ```bash
-deno run --allow-net --allow-env src/index.ts
+# with Deno 1.46.3 or above
+deno run dev # executes task 'dev' declared in deno.jsonc
 ```

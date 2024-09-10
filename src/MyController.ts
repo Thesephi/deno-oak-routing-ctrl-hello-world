@@ -5,6 +5,7 @@ import type { Context, RouteContext } from "@oak/oak";
 export class MyController {
   @Get("/")
   hello() {
+    console.log(`request received at ${performance.now()}`);
     return `hello, Deno user!`;
   }
 
