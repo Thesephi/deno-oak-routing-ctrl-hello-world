@@ -1,5 +1,4 @@
 import { Controller, ControllerMethodArgs, Get } from "@dklab/oak-routing-ctrl";
-import type { Context, RouteContext } from "@oak/oak";
 
 @Controller("/")
 export class MyController {
