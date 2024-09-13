@@ -2,28 +2,28 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "jsr:@dklab/oak-routing-ctrl@^0.10.0": "jsr:@dklab/oak-routing-ctrl@0.10.0",
+      "jsr:@dklab/oak-routing-ctrl@^0.11.0": "jsr:@dklab/oak-routing-ctrl@0.11.0",
       "jsr:@oak/commons@^1.0": "jsr:@oak/commons@1.0.0",
       "jsr:@oak/oak@^17.0.0": "jsr:@oak/oak@17.0.0",
-      "jsr:@std/assert@^1.0": "jsr:@std/assert@1.0.4",
+      "jsr:@std/assert@^1.0": "jsr:@std/assert@1.0.5",
       "jsr:@std/bytes@^1.0": "jsr:@std/bytes@1.0.2",
       "jsr:@std/bytes@^1.0.2": "jsr:@std/bytes@1.0.2",
       "jsr:@std/crypto@^1.0": "jsr:@std/crypto@1.0.3",
-      "jsr:@std/encoding@^1.0": "jsr:@std/encoding@1.0.4",
-      "jsr:@std/encoding@^1.0.4": "jsr:@std/encoding@1.0.4",
-      "jsr:@std/http@^1.0": "jsr:@std/http@1.0.5",
-      "jsr:@std/io@0.224": "jsr:@std/io@0.224.7",
+      "jsr:@std/encoding@^1.0": "jsr:@std/encoding@1.0.5",
+      "jsr:@std/encoding@^1.0.5": "jsr:@std/encoding@1.0.5",
+      "jsr:@std/http@^1.0": "jsr:@std/http@1.0.6",
+      "jsr:@std/io@0.224": "jsr:@std/io@0.224.8",
       "jsr:@std/media-types@^1.0": "jsr:@std/media-types@1.0.3",
-      "jsr:@std/path@^1.0": "jsr:@std/path@1.0.4",
-      "jsr:@std/path@^1.0.4": "jsr:@std/path@1.0.4",
+      "jsr:@std/path@^1.0": "jsr:@std/path@1.0.6",
+      "jsr:@std/path@^1.0.4": "jsr:@std/path@1.0.6",
       "npm:@asteasolutions/zod-to-openapi@^7.1.1": "npm:@asteasolutions/zod-to-openapi@7.1.1_zod@3.23.8",
       "npm:boxen@8.0.1": "npm:boxen@8.0.1",
       "npm:path-to-regexp@6.2.1": "npm:path-to-regexp@6.2.1",
       "npm:zod@^3.23.8": "npm:zod@3.23.8"
     },
     "jsr": {
-      "@dklab/oak-routing-ctrl@0.10.0": {
-        "integrity": "b8780d18210a33bebf3a7020c4e8184a7358d7a791168f6cf6ba290fe00ce33b",
+      "@dklab/oak-routing-ctrl@0.11.0": {
+        "integrity": "f57550004321048db11540a3309c6408167ea51ce62bfbaae8aa2c7e679f067a",
         "dependencies": [
           "jsr:@oak/oak@^17.0.0",
           "jsr:@std/path@^1.0.4",
@@ -56,8 +56,8 @@
           "npm:path-to-regexp@6.2.1"
         ]
       },
-      "@std/assert@1.0.4": {
-        "integrity": "d4c767ea578e5bc09c15b6e503376003e5b2d1f4c0cdf08524a92101ff4d7b96"
+      "@std/assert@1.0.5": {
+        "integrity": "e37da8e4033490ce613eec4ac1d78dba1faf5b02a3f6c573a28f15365b9b440f"
       },
       "@std/bytes@1.0.2": {
         "integrity": "fbdee322bbd8c599a6af186a1603b3355e59a5fb1baa139f8f4c3c9a1b3e3d57"
@@ -65,17 +65,17 @@
       "@std/crypto@1.0.3": {
         "integrity": "a2a32f51ddef632d299e3879cd027c630dcd4d1d9a5285d6e6788072f4e51e7f"
       },
-      "@std/encoding@1.0.4": {
-        "integrity": "2266cd516b32369e3dc5695717c96bf88343a1f761d6e6187a02a2bbe2af86ae"
+      "@std/encoding@1.0.5": {
+        "integrity": "ecf363d4fc25bd85bd915ff6733a7e79b67e0e7806334af15f4645c569fefc04"
       },
-      "@std/http@1.0.5": {
-        "integrity": "afa1cf4f0c19e224534df3288a84de4fdfffe8a26308dfe3794166e4fafe0f3d",
+      "@std/http@1.0.6": {
+        "integrity": "20a6f3fa4a914fbb19ea96572f2519b656232597092581ed706cd865d842d0d0",
         "dependencies": [
-          "jsr:@std/encoding@^1.0.4"
+          "jsr:@std/encoding@^1.0.5"
         ]
       },
-      "@std/io@0.224.7": {
-        "integrity": "a70848793c44a7c100926571a8c9be68ba85487bfcd4d0540d86deabe1123dc9",
+      "@std/io@0.224.8": {
+        "integrity": "f525d05d51fd873de6352b9afcf35cab9ab5dc448bf3c20e0c8b521ded9be392",
         "dependencies": [
           "jsr:@std/bytes@^1.0.2"
         ]
@@ -83,8 +83,8 @@
       "@std/media-types@1.0.3": {
         "integrity": "b12d30a7852f7578f4d210622df713bbfd1cbdd9b4ec2eaf5c1845ab70bab159"
       },
-      "@std/path@1.0.4": {
-        "integrity": "48dd5d8389bcfcd619338a01bdf862cb7799933390146a54ae59356a0acc7105"
+      "@std/path@1.0.6": {
+        "integrity": "ab2c55f902b380cf28e0eec501b4906e4c1960d13f00e11cfbcd21de15f18fed"
       }
     },
     "npm": {
@@ -223,7 +223,7 @@
   "remote": {},
   "workspace": {
     "dependencies": [
-      "jsr:@dklab/oak-routing-ctrl@^0.10.0",
+      "jsr:@dklab/oak-routing-ctrl@^0.11.0",
       "jsr:@oak/oak@^17.0.0"
     ]
   }

@@ -1,7 +1,7 @@
 {
   "imports": {
     "@oak/oak": "jsr:@oak/oak@^17.0.0",
-    "@dklab/oak-routing-ctrl": "jsr:@dklab/oak-routing-ctrl@^0.10.0"
+    "@dklab/oak-routing-ctrl": "jsr:@dklab/oak-routing-ctrl@^0.11.0"
   },
   "fmt": {
     "include": ["src"]
